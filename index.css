@@ -12,11 +12,17 @@ html {
   font-size: 15px;
   line-height: 24px;
   font-family: 'Inter', sans-serif;
-  padding: 120px;
 }
 
 body {
-  padding: 32px;
+  padding: 64px;
+  padding-bottom: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 32px;
+  }
 }
 
 main {
@@ -41,12 +47,13 @@ main {
 
 .hero > .title {
   font-size: 35px;
-  line-height: 64px;
+  line-height: 44px;
+  margin-bottom: 12px;
 }
 
 .hero > .title > .revealable {
   font-size: 40px;
-  line-height: 64px;
+  line-height: 44px;
 }
 
 .hero > .description {
